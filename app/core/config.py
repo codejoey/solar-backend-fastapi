@@ -1,3 +1,8 @@
+"""
+- You can define and manage configurations to use in your project.
+    - `BaseSettings` in `pydantic_settings` can set config values based on system environment variables.
+    - To use the Upstage Solar API, you need to put `API_KEY` as a system environment variable.
+"""
 import logging
 from typing import Dict, Any
 

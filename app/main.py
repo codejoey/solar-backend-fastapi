@@ -1,3 +1,13 @@
+"""
+- Set up `FastAPI`Application
+    - Exception Handler for exception handling
+    - Middleware for additional processing for every request
+- Good to know
+    - https://fastapi.tiangolo.com/tutorial/first-steps/
+    - https://fastapi.tiangolo.com/tutorial/middleware/
+    - https://fastapi.tiangolo.com/tutorial/handling-errors/
+"""
+
 from fastapi import FastAPI
 from fastapi.responses import ORJSONResponse
 from fastapi.middleware.cors import CORSMiddleware

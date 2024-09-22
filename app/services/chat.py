@@ -1,3 +1,10 @@
+"""
+- Service layer, which defines the business logic or main logic of the function to call
+    - Define the methods needed for the functionality you want to implement, and call them from Router.
+    - If you want to add other features to the chat functionality, you can put the additional logic into `chat` and `stream_chat` methods or implement separate methods.
+- Good to know
+    - https://developers.upstage.ai/docs/apis/chat#example
+"""
 from typing import List, Dict, AsyncGenerator
 
 from app.clients import OpenAIClient

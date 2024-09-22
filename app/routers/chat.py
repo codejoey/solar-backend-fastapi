@@ -1,3 +1,10 @@
+"""
+- You can define and manage endpoint paths for FastAPIs.
+    - Use `FastAPI`'s `Depends` to inject and use the required service dependencies.
+        - You can use a dependency injection library like `dependency_injector`, or you can inject the required classes with a class like `ServiceFactory`, as written in the example.
+- Good to know
+    - https://fastapi.tiangolo.com/tutorial/dependencies/
+"""
 from fastapi import APIRouter, Depends
 from fastapi.responses import StreamingResponse
 

@@ -1,15 +1,23 @@
+# todo
+- env var storage
+
 # Solar Backend FastAPI
 
 Welcome to the Solar Backend FastAPI project! This project is designed to provide backend services for a LLM chat application using Solar API.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [todo](#todo)
+- [Solar Backend FastAPI](#solar-backend-fastapi)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [License](#license)
+  - [FastAPI app](#fastapi-app)
+  - [Configuration](#configuration)
+  - [License](#license)
 
 ## Introduction
 

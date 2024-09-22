@@ -1,3 +1,9 @@
+"""
+- Client layer, responsible for communicating with the outside.
+    - Implements the functionality of the OpenAI client, which implements the Upstage Solar API logic required for it.
+- Good to know
+    - https://developers.upstage.ai/docs/apis/chat
+"""
 from typing import AsyncGenerator, List
 
 from openai import AsyncOpenAI, APIConnectionError
